@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(to left, black, rgb(25,25,25));
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+}
+
+hr.solid {
+    border-top: 1px solid #aaa;
+}
+
+a {
+    -webkit-transition: font-weight 100ms;
+}
+
+a:visited,
+a:link {
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.pagactual {
+    color: pink !important;
+}
+
+.arriba {
+    border: 0px solid white;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.principal {
+    border: 0px solid white;
+    margin: 200px 20px 300px;
+    display: block;
+    text-align: center;
+}
+
+#star {
+    width: 70px;
+    height: 70px;
+    filter: invert(1);
+    animation: rotation 10s infinite linear;
+}
+
+#footer {
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+.boton {
+    text-decoration: none;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+}
+
+
+#titl1 {
+    font-size: 40px;
+}
+
+.texto {
+    font-weight: cursive;
+    font-size: 3em;
+}
+
+#text06{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Times New Roman', serif;
+    font-size: 0.875em;
+    line-height: 1.5;
+    font-weight: 400;
+}
